@@ -7,7 +7,7 @@
     <meta name="description" content="<?= $dashboard::settings() ?>" />
     <meta name="author" content="" />
     <title><?= $dashboard::settings()->getTitle() ?></title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.alexishenry.eu/shared/images/logo.png" />
+    <link rel="icon" type="image/x-icon" href="http://cdn.vladimir-portfolio.com/shared/images/Favicon_2.png" />
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
