@@ -45,6 +45,17 @@ a.item {
     margin-bottom: 0rem;
 }
 
+.btn-primary {
+    background-color: var(--light) !important;
+    border-color: var(--light) !important;
+}
+
+.btn-tertiary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white) !important;
+}
+
 @media (min-width: 992px) {
     .page-section .page-section-heading {
         font-size: 3rem;
@@ -114,7 +125,7 @@ a.item {
 }
 
 #nav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #1abc9c;
+    color: #dc8848;
 }
 
 #nav .navbar-nav li.nav-item a.nav-link:active,
@@ -123,7 +134,7 @@ a.item {
 }
 
 #nav .navbar-nav li.nav-item a.nav-link.active {
-    color: #1abc9c;
+    color: #b26b35;
 }
 
 #nav .navbar-toggler {
@@ -149,14 +160,14 @@ a.item {
 
     #nav .navbar-nav > li.nav-item > a.nav-link.active {
         color: #fff;
-        background: #1abc9c;
+        background: #b26b35;
     }
 
     #nav .navbar-nav > li.nav-item > a.nav-link.active:active,
     #nav .navbar-nav > li.nav-item > a.nav-link.active:focus,
     #nav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: #fff;
-        background: #1abc9c;
+        background: #b26b35;
     }
 
     #nav.navbar-shrink {

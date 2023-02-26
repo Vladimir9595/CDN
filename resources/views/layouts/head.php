@@ -23,7 +23,7 @@
                 <a class="navbar-brand block" href="/"><?= $dashboard::settings()->getSubtitle() ?></a>
                 <p class="description text-white" <?= $dashboard::settings()->check("description") ?: 'style="display:none;"' ?>><?= $dashboard::settings()->getDescription() ?></p>
             </div>
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary-light text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
@@ -55,7 +55,7 @@
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                         </div>
-                        <button type="submit" class="btn btn-primary mt-4 w-100" style="height: 50px;">Submit</button>
+                        <button type="submit" class="btn btn-tertiary mt-4 w-100" style="height: 50px;">Submit</button>
                     </form>
                 </div>
             </div>
