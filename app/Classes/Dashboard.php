@@ -29,6 +29,11 @@ class Dashboard
     /**
      * @var string
      */
+    public readonly string $footsub;
+
+    /**
+     * @var string
+     */
     public readonly string $description;
 
     /**
@@ -40,6 +45,7 @@ class Dashboard
         $this->requirements();
         $this->title = $this->settings['title'];
         $this->subtitle = $this->settings['subtitle'];
+        $this->footsub = $this->settings['footsub'];
         $this->description = $this->settings['description'];
     }
 
@@ -97,6 +103,14 @@ class Dashboard
     public function getSubtitle(): string
     {
         return $this->subtitle;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFootsub(): string
+    {
+        return $this->footsub;
     }
 
     /**
