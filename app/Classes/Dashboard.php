@@ -126,6 +126,6 @@ class Dashboard
      */
     public function __toString(): string
     {
-        return "{$this->title} | {$this->subtitle} | {$this->description}";
+        return "{$this->title} | {$this->subtitle} | {$this->footsub} | {$this->description}";
     }
 }
