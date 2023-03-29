@@ -7,7 +7,20 @@
     <meta name="description" content="<?= $dashboard::settings() ?>" />
     <meta name="author" content="" />
     <title><?= $dashboard::settings()->getTitle() ?></title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.vladimir-portfolio.com/shared/images/Favicon_2.png" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href=/images/favicon/apple-touch-icon.png>
+    <link rel=" apple-touch-icon" sizes="180x180" href=/images/favicon/apple-touch-icon.png>
+    <link rel=" icon" type="image/png" sizes="32x32" href=/images/favicon/faviconcon-32x32.png>
+    <link rel=" icon" type="image/png" sizes="16x16" href=/images/favicon/faviconcon-16x16.png>
+    <link rel=" icon" type="image/png" sizes="192x192" href=/images/favicon/android-chrome-192x192.png>
+    <link rel=" icon" type="image/png" sizes="384x384" href=/images/favicon/android-chrome-384x384.png>
+    <link rel=" manifest" href=/images/favicon/site.webmanifest>
+    <link rel=" mask-icon" href=/images/favicon/safari-pinned-tab.svg color=" #5bbad5">
+    <link rel="shortcut icon" href=/images/favicon/faviconcon.ico>
+    <meta name=" msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content=/images/favicon/browserconfig.xml>
+    <meta name="theme-color" content="#ffffff">
+
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
