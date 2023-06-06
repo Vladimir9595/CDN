@@ -13,7 +13,7 @@
 <!-- <a href="https://alxishenry.github.io/docs"><strong>Documentation »</strong></a> -->
 
 <h4>
-    <a href="https://vladimir-portfolio.com">Go to the site</a>
+    <a href="https://cdn.vladimir-portfolio.com">Go to the site</a>
   <span> · </span>
     <a href="https://github.com/Vladimir9595/CDN/issues">Report a bug</a>
   <span> · </span>
