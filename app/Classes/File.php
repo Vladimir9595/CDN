@@ -11,7 +11,7 @@ class File
      * @var array<String,array<String>> ALLOWED_EXTENSIONS
      */
     const ALLOWED_EXTENSIONS = [
-        'files' => ['pdf', 'md', 'txt', 'yml', 'json', 'yaml', 'css', 'js', 'conf', 'pptx'],
+        'files' => ['pdf', 'md', 'txt', 'yml', 'json', 'yaml', 'css', 'js', 'conf', 'pptx', 'htaccess'],
         'images' => ['jpg', 'jpeg', 'png', 'gif', 'svg', 'jfif', 'webp', 'jif'],
         'videos' => ['mp4', 'webm']
     ];
